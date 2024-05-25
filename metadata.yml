@@ -1,0 +1,8 @@
+
+name: "Plugin Mod Harmony Edition"
+version: 0.1
+description: "A hopefully mod compatible set of options for mods"
+author: Lord_Kane
+
+master: xcom1
+reservedSpace: 2
