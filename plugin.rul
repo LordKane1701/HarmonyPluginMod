@@ -38,6 +38,7 @@ soldierTransformation:
     #  - STR_DNA_SAMPLING
      # forbiddenPreviousTransformations:
      # - STR_SOLDIER
+    visibilityAtDark:
     requiredMinStats:
       tu: 0
       stamina: 0
@@ -1527,6 +1528,59 @@ soldierTransformation:
     lowerBoundAtMinStats: false
     upperBoundAtMaxStats: false
     upperBoundAtStatCaps: false
+ 
+  - name: STR_BASIC 
+#    requires:
+#    requiresBaseFunc:
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: True
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    cost: 250000
+#    requiredItems:
+#    producedItem: 
+    soldierBonusType: STR_BASIC_BONUS
+    forbiddenPreviousTransformations:
+     - STR_BASIC
+
+
+soldierBonuses:
+
+  - name: STR_BASIC_BONUS
+    visibilityAtDark: 5
+    stats:
+      tu: 5
+      stamina: 5
+      health: 5
+      bravery: 5
+      reactions: 5
+      firing: 5
+      throwing: 5
+      strength: 5
+      psiStrength: 5
+      psiSkill: 5
+      melee: 5
+      mana: 5
+#    recovery:
+#      time:
+#        flatOne: 0
+#      energy:
+#        flatOne: 10
+#      morale:
+#        flatOne: 0
+#      health:
+#        flatOne: 0
+#      mana:
+#        flatOne: 0
+#      stun:
+#        flatOne: 0
+
 
 vars:
 costEngineer: 1500
@@ -1568,13 +1622,13 @@ recommendedUserOptions:
   showMoreStatsInInventoryView: true
   storageLimitsEnforced: true
 
-facilities:
-  - type: STR_LABORATORY
-    sickBayAbsoluteBonus: 0.25
-  - type: STR_LIVING_QUARTERS
-    sickBayAbsoluteBonus: 0.50
-  - type: STR_GENERAL_STORES
-    storage: 275
+#facilities:
+#  - type: STR_LABORATORY
+#    sickBayAbsoluteBonus: 0.25
+#  - type: STR_LIVING_QUARTERS
+#    sickBayAbsoluteBonus: 0.50
+#  - type: STR_GENERAL_STORES
+#    storage: 275
 #  - type: STR_SMALL_RADAR_SYSTEM
 #    sightRange: 1695
 #    sightChance: 10
