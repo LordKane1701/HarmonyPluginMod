@@ -22,5 +22,5 @@ en-US:
  STR_LV15MIL: "+15% to Military Stats"
  STR_LV20MIL: "+20% to Military Stats"
  STR_LV25MIL: "+25% to Military Stats" 
- STR_BASIC: "Basic XRAY Combat Course"
- STR_BASIC_BONUS: "XRAY Combat: Basic"
+ STR_BASIC: "XR-C-C: BASIC"
+ STR_BASIC_BONUS: "XRCL: BASIC"
