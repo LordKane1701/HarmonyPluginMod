@@ -1,7 +1,13 @@
+# Version 1
+# New troop enhancment options
+# Elerium Flares (Starving Poet?)
+# PS1 Music (add credits)
+
+
 
 name: "Plugin Mod Harmony Edition"
 version: 0.1
-description: "A hopefully mod compatible set of options for mods"
+description: "A submod for both Reaver's Harmony and my Harmony+ mods"
 author: Lord_Kane
 
 master: xcom1
